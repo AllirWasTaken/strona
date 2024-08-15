@@ -53,7 +53,6 @@ const MainBlock: React.FC<MainProps> = ({ children }) => {
           marginRight: "2vw",
           marginLeft: "2vw",
           marginTop: "5vh",
-          height: "20vh",
           width: "96vw",
         }}
       >
@@ -62,8 +61,8 @@ const MainBlock: React.FC<MainProps> = ({ children }) => {
           onPanelClick={handlePanelClick}
           textFormatting={textFormatting}
         ></GridBar>
-        {children}
       </div>
+      {children}
     </BackgroundImage>
   );
 };
