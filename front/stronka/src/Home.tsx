@@ -54,7 +54,7 @@ const Home: React.FC = () => {
       >
         <ButtonLink
           text="DOŁĄCZ TERAZ!"
-          link="https://discord.com"
+          link="https://discord.gg/429P8KxrbK"
           backgroundColor="#222222"
           hoverColor="#333333"
           fontSize="64px"
@@ -71,7 +71,7 @@ const Home: React.FC = () => {
           }}
         >
           <ClickableIcon
-            link="https://discord.gg/YOUR_INVITE_HERE"
+            link="https://discord.gg/429P8KxrbK"
             iconSrc="discordLogo.jpg"
             alt="Discord Icon"
             width="64px"
