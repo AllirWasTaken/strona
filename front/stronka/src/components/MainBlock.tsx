@@ -8,33 +8,32 @@ interface MainProps {
 }
 
 const MainBlock: React.FC<MainProps> = ({ children }) => {
-  const banerColor = "#800080";
-  const hoverColor = "#e84393";
+  const banerColor = "#222222";
+  const hoverColor = "#333333";
 
   const panels = [
-    { name: "Home", path: "/", color: banerColor, hoverColor: hoverColor },
     {
-      name: "Galeria",
-      path: "/galeria",
+      name: "MAD",
+      path: "/",
       color: banerColor,
       hoverColor: hoverColor,
     },
     {
-      name: "Cennik",
-      path: "/cennik",
+      name: "Operacje",
+      path: "/operations",
       color: banerColor,
       hoverColor: hoverColor,
     },
     {
-      name: "Terminarz",
-      path: "/terminarz",
+      name: "O nas",
+      path: "/about",
       color: banerColor,
       hoverColor: hoverColor,
     },
   ];
   const textFormatting = {
     fontFamily: "Arial, sans-serif",
-    fontSize: "16px",
+    fontSize: "32px",
     fontWeight: "bold",
     color: "#ffffff",
     textAlign: "center" as "center",
@@ -47,7 +46,7 @@ const MainBlock: React.FC<MainProps> = ({ children }) => {
   };
 
   return (
-    <BackgroundImage imageUrl="kot.jpg">
+    <BackgroundImage imageUrl="background.jpg">
       <div
         style={{
           marginRight: "2vw",

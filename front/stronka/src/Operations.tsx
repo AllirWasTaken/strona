@@ -2,7 +2,7 @@ import React from "react";
 import MainBlock from "./components/MainBlock";
 import PhotoGrid from "./components/PhotoGrid";
 import PageContent from "./components/PageContent";
-const Galeria: React.FC = () => {
+const Operations: React.FC = () => {
   const photos = [
     { id: 1, url: "kot.jpg" },
     { id: 2, url: "kot.jpg" },
@@ -30,4 +30,4 @@ const Galeria: React.FC = () => {
   );
 };
 
-export default Galeria;
+export default Operations;
