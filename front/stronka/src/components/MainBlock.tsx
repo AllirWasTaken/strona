@@ -46,7 +46,7 @@ const MainBlock: React.FC<MainProps> = ({ children }) => {
   };
 
   return (
-    <BackgroundImage imageUrl="background.jpg">
+    <BackgroundImage imageUrl="backgroundNew.jpg">
       <div
         style={{
           marginRight: "2vw",
