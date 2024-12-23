@@ -51,7 +51,7 @@ const MainBlock: React.FC<MainProps> = ({ children }) => {
         style={{
           marginRight: "2vw",
           marginLeft: "2vw",
-          marginTop: "5vh",
+          marginTop: "1vh",
           width: "96vw",
         }}
       >
