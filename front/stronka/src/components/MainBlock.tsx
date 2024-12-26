@@ -46,12 +46,12 @@ const MainBlock: React.FC<MainProps> = ({ children }) => {
   };
 
   return (
-    <BackgroundImage imageUrl="background.jpg">
+    <BackgroundImage imageUrl="backgroundNew.jpg">
       <div
         style={{
           marginRight: "2vw",
           marginLeft: "2vw",
-          marginTop: "5vh",
+          marginTop: "1vh",
           width: "96vw",
         }}
       >

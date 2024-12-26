@@ -5,7 +5,7 @@ interface PageContentProp {
 }
 
 const PageContent: React.FC<PageContentProp> = ({ children }) => {
-  const backgroundColor = "#ffffff";
+  const backgroundColor = "#333333";
   return (
     <div
       style={{
@@ -13,7 +13,7 @@ const PageContent: React.FC<PageContentProp> = ({ children }) => {
         marginRight: "2vw",
       }}
     >
-      <BackGround color={backgroundColor} opacity={0.8}>
+      <BackGround color={backgroundColor} opacity={0.9}>
         {children}
       </BackGround>
     </div>
